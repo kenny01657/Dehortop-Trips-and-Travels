@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 4rem 4rem;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: solid 1px #000;
+}
+
+.logo {
+  font-family: "Orbitron";
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:not(:last-child) {
+  border-right: solid 1px #000;
+  padding-right: 2rem;
+}
+
+.pictures {
+  display: flex;
+}
+
+.picture {
+  height: 50rem;
+  width: 50rem;
+  border: solid 1px #000;
+}
+
+.footer {
+  border: solid 1px #000;
+  padding: 2rem;
+}
