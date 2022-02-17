@@ -2,7 +2,6 @@
 
 <?php 
 
-
 $orderBy = "";
 if(isset($_POST["code"])){
     $orderBy = " ORDER BY bestemmingcode";

@@ -1,0 +1,18 @@
+INSERT INTO `klanten` (`Klantnummer`, `Voorletters`, `Voorvoegsel`, `Naam`, `Adres`, `Postcode`, `Plaats`, `Telefoonnummer`) VALUES 
+('1003', 'F.P', 'van der', 'Wubben', 'Evenaar 60', '3067 DA', 'Rotterdam', '0104205259'),
+('1004', 'A.', '', 'Baggerman', 'Maisdreef 8', '3204 GM', 'Spijkenisse', '0181638923'),
+('1005', 'K.', '', 'Pieterman', 'De wouden 93', '9405 HC', 'Assen', '0592358938'),
+('1006', 'W.', '', 'Ruigrok', 'Pompstraat 47', '3082 RR', 'Rotterdam', '0104553694'),
+('1008', 'J.M.', '', 'Ramaker', 'Heideanjer 44', '7721 HE', 'Dalfsen', '0529438493'),
+('1010', 'W.A.J.', '', 'Jansen', 'Delkant 4', '5311 CJ', 'Gameren', '0418563829'),
+('1011', 'P.', 'van', 'Galen', 'Nassaulaan 4', '3116 EV', 'Schiedam', '0104265028'),
+('1012', 'R.', '', 'Brigman', 'Bolderwerk 6', '3134 MA', 'Vlaardingen', '0104354223'),
+('1013', 'J.', '', 'Pedersen', 'Drinkwaterweg 404', '3063 JC', 'Rotterdam', '0104182219'),
+('1014', 'A.', '', 'Slootweg', 'Platanendreef 6', '3137 CN', 'Vlaardingen', '0104730435'),
+('1015', 'D.', '', 'Brugman', 'Edisonstraat 34', '3112 LW', 'Schiedam', '0104704951'),
+('1016', 'J.', '', 'Jansen', 'Prinsenlaan 393', '3067 TX', 'Rotterdam', '0104804674'),
+('1017', 'K.C.', '', 'Diepenhorst', 'Gemeenlandsedijk 5', '3216 AG', 'Abbenbroek', '0181669241'),
+('1018', 'A.J.J.', '', 'Antes', 'Merelstraat 4', '4793 HA', 'Fijnaart', '0168462236'),
+('1019', 'H.T.', '', 'Jansen', 'Ankerstraat 16', '7071 WH', 'Ulft', '0315681206'),
+('1020', 'J.', '', 'Jansen', 'Buitenbrinkweg 54', '3853 LX', 'Ermelo', '0341553246'),
+('1025', 'P.', '', 'Brouwer', 'Rijnstraat 22', '9700 AS', 'Groningen', '0503344556');
