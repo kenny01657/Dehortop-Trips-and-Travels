@@ -61,6 +61,23 @@ body {
   border: solid 1px #000;
 }
 
+.destinations {
+}
+
+.destination-list {
+  display: inline-block;
+}
+
+.destination-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* justify-items: start; */
+  padding: 0.8rem;
+  gap: 2rem;
+  list-style: none;
+  border: solid 1px #000;
+}
+
 .footer {
   border: solid 1px #000;
   padding: 2rem;
