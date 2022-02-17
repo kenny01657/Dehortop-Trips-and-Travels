@@ -71,11 +71,17 @@ body {
 .destination-item {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* justify-items: start; */
+  justify-items: center;
   padding: 0.8rem;
   gap: 2rem;
   list-style: none;
   border: solid 1px #000;
+}
+
+.order-btn {
+  border: none;
+  background-color: #fff;
+  color: blue;
 }
 
 .footer {
