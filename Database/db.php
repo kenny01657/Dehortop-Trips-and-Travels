@@ -13,19 +13,28 @@ private $conn;
             $this->conn = new PDO("mysql:host=$this->hostName;dbname=$this->dbName", $this->serverUsername, $this->serverPassword);
             // set the PDO error mode to exception
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            // echo "Connected successfully";
+            echo "Connected successfully";
         } catch(PDOException $e) {
             echo "Connection failed: " . $e->getMessage();
         }
     }
 
-    public function getData($query) {
-        $query = $this->conn->query($query);
+    public function retrieve($query) {
+        $var = $this->conn->query($query);
         
-        while($row = $query->fetch(PDO::FETCH_OBJ)) {
+        while($row = $var->fetch(PDO::FETCH_OBJ)) {
             $results[] = $row;
         }
         return $results;
+    }
+
+    public function insert($query) {
+        // return $query;
+        if($this->conn->exec($query)) {
+            return "something";
+        } else {
+            return 'Nothing';
+        }
     }
 }
 

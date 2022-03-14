@@ -84,6 +84,18 @@ body {
   color: blue;
 }
 
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 40rem;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer {
   border: solid 1px #000;
   padding: 2rem;

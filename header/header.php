@@ -34,7 +34,7 @@ if(!isset($conn)) {
                 <a href="index.php" class="nav-link">Home</a>
                 <a href="bestemmingOverzicht.php" class="nav-link">Bestemmingen</a>
                 <a href="#" class="nav-link">Reizen</a>
-                <a href="#" class="nav-link">Registreer</a>
+                <a href="registreren.php" class="nav-link">Registreer</a>
                 <a href="#" class="nav-link">Inloggen</a>
             </nav>
         </header>

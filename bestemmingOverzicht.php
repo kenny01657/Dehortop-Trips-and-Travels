@@ -1,5 +1,4 @@
 <?php include_once("header/header.php");?>
-
 <?php 
 
 $orderBy = "";
@@ -14,17 +13,14 @@ if(isset($_POST["code"])){
 }
 
 // Get the data from the datavbase
-$dbData = $conn->getData("SELECT * FROM bestemmingen" . $orderBy);
+$dbData = $conn->retrieve("SELECT * FROM bestemmingen" . $orderBy);
 
 // Put all the data in an array
 foreach($dbData as $obj) {
     $var[] = objToString($obj);
 }
 
-
-
 displayDestinations($var);
-
 
 ?>
 <?php include_once("footer/footer.php");?>
